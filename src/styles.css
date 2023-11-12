@@ -16,3 +16,6 @@ nav {
 .nav--logo {
     max-width: 100px;
 }
+.hero--section {
+    padding: 5em;
+}
