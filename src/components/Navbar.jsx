@@ -1,7 +1,11 @@
+import airbnblogo from "../images/airbnb-logo.png"
+
 function Navbar (){
     return (
         <>
-            <h1>Hello There</h1>
+            <nav>
+                <img src={airbnblogo} alt="airbnb logo" />
+            </nav>
         </>
     )
 }
