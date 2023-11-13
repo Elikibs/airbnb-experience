@@ -1,18 +1,18 @@
 import katieimage from "../images/katie-zaferes.png"
 import starimage from "../images/star.png"
 
-function Card (){
+function Card (props){
     return (
         <div className="card">
             <img src={katieimage} alt="card-image"  className="card--image"/>
             <div className="card--stats">
                 <img src={starimage} alt="star-image" className="card--star"/>
-                <span>5.0</span>
-                <span className="gray">(6) . </span>
+                <span>{props.rating}</span>
+                <span className="gray">({props.reviewCount}) . </span>
                 <span className="gray">USA</span>
             </div>
-            <p>Life lessons with Katie Zaferes</p>
-            <p><strong>From $136</strong> / person</p>
+            <p>{props.title}</p>
+            <p><strong>From ${props.price}</strong> / person</p>
         </div>
     )
 }
