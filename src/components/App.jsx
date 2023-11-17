@@ -5,13 +5,9 @@ import dataFile from "../../data"
 
 function App() {
   const cardData = dataFile.map(function(data){
-    return <Card img={data.coverImg}
-                rating={data.stats.rating} 
-                reviewCount={data.stats.reviewCount}
-                location={data.location}
-                title={data.title}
-                price={data.price}
-                openSpots={data.openSpots}
+    return <Card 
+              key={data.id}
+              {...data}
           />
   })
   return (
