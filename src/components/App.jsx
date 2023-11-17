@@ -1,6 +1,7 @@
 import Card from "./Card"
 import Hero from "./Hero"
 import Navbar from "./Navbar"
+import katieZaferesImage from "../images/katiezaferes.png"
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <Card 
-        img="katie-zaferes.png"
+        img= {katieZaferesImage}
         rating="5.0"
         reviewCount={6}
         country="USA"
