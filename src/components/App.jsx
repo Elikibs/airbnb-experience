@@ -17,7 +17,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      {cardData}
+      <section className="cards--list">
+        {cardData}
+      </section>
     </>
   )
 }
