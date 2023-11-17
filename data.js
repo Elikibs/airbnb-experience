@@ -37,6 +37,45 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Tour Nairobi City with Elikibs",
+        description: "Experience the elegant and fancy sites within Nairobi city. You gonna have an experience of top-tier hotels, parks, game drives and many more",
+        price: 80,
+        coverImg: "nairobi-city.jpg",
+        stats: {
+            rating: 4.8,
+            reviewCount: 30
+        },
+        location: "Nairobi",
+        openSpots: 10,
+    }, 
+    {
+        id: 5,
+        title: "Roast & learn everyhting about coffee",
+        description: "Get to know more about coffee farming, its types and also market state.",
+        price: 35,
+        coverImg: "coffee.jpg",
+        stats: {
+            rating: 4.95,
+            reviewCount: 15
+        },
+        location: "Online",
+        openSpots: 3,
+    },
+    {
+        id: 6,
+        title: "Local Market Tour",
+        description: "Experience one of the best markets in Kenya,that is Gikomba. You can basically get 'all' commodities that you might need",
+        price: 60,
+        coverImg: "local-market.jpg",
+        stats: {
+            rating: 5.0,
+            reviewCount: 20
+        },
+        location: "Nairobi",
+        openSpots: 0,
     }
     
 ]
