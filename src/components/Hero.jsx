@@ -1,4 +1,4 @@
-import photogrid from "../images/photo-grid.png"
+import photogrid from "/images/photo-grid.png"
 
 function Hero (){
     return (
