@@ -53,7 +53,7 @@ export default [
     }, 
     {
         id: 5,
-        title: "Roast & learn everyhting about coffee",
+        title: "Roast & learn everything about coffee",
         description: "Get to know more about coffee farming, its types and also market state.",
         price: 35,
         coverImg: "coffee.jpg",
