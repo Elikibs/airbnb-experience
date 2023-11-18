@@ -15,5 +15,5 @@
  (/images/airbnb-screenshot.png)
 
  ## Functionality
- The "main.jsx" renders the "app component" where the app component is responsible for rendering the "navbar, hero and card sections". The App component being the parent component to; navbar, hero and card components, it posses properties, better still "props", that are passed to the card component. The props are being obtained as array of data from "data.js" file.
-
+ The "main.jsx" renders the "app component" where the app component is responsible for rendering the "navbar, hero and card sections". The App component being the parent component to; navbar, hero and card components, it posses properties, better still "props", that are, for this case, passed to the card component. The props are being obtained as array of data from "data.js" file.
+"props' are helpful as they easen the usage of dynamic data and facilitates reusability concepts.
